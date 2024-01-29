@@ -28,7 +28,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['8000-saratisell-djangoblog-thzmva1rnmk.ws-eu107.gitpod.io', '.herokuapp.com']
 
@@ -95,7 +95,7 @@ DATABASES = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://*8000-saratisell-djangoblog-2916j2kljp4.ws-eu107.gitpod.io/",
+    "https://*8000-saratisell-djangoblog-thzmva1rnmk.ws-eu107.gitpod.io/",
     "https://*django-myblog-aff0b3b14eea.herokuapp.com/"
 ]
 
